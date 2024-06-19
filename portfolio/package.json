@@ -22,7 +22,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "homepage": "https://hripsimesoghomonyanofficial.github.io/Hripsime.Soghomonyan.Portfolio/",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
