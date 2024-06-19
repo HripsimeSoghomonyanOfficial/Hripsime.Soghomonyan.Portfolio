@@ -1,0 +1,26 @@
+.menu {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.menusub {
+    margin-top: 15px;
+    display: none;
+    position: absolute;
+    background-color: rgb(63,63,63);
+}
+.menusub li {
+    padding: 15px;
+}
+.menuitem3:hover .menusub, .menuitem5:hover .menusub {
+    display: block;
+}
+.menuitem321, 
+.menuitem322 {
+    display: none;
+    padding-left: 15px;
+}
+.menuitem32:hover .menuitem321,
+.menuitem32:hover .menuitem322 {
+    display: block;
+}

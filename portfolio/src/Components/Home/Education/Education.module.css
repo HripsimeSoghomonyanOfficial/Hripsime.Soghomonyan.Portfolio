@@ -1,0 +1,17 @@
+.edu h1{
+    font-size: 25px;
+    margin: 0px 15px;
+}
+.table,.table th, .table td {
+    padding: 15px;
+}
+.table {
+    width: 48vw;
+}
+
+.table th {
+    text-align: left;
+}
+.edu {
+    width: 58vw;
+}
