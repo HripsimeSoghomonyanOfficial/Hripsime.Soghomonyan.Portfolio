@@ -1,0 +1,73 @@
+* {
+    overflow: hidden;
+    background-color: #00000000;
+}
+.parenterr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../Photos/background.png);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    padding: 20vw 0;
+}
+
+.parenterr h1,
+h2 {
+    color: white;
+}
+
+.parenterr h1 {
+    font-size: 55px;
+}
+
+.parenterr input {
+    width: 40vw;
+    padding: 8px 16px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+.sear {    
+    gap: 20px;
+    margin: 20px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.search button img {
+    position: absolute;
+    top: 60%;
+    left: 68.5%;
+}
+
+.parenterr button,
+a {
+    background: none;
+    border: none;
+    color: white;
+}
+@media (max-width: 1024px) {
+    
+.parenterr h1 {
+    font-size: 38px;
+}
+
+.parenterr h2, .parenterr button {
+    font-size: 18px;
+}
+}
+@media (max-width: 512px) {
+    
+.parenterr h1 {
+    font-size: 30px;
+}
+
+.parenterr h2, .parenterr button {
+    font-size: 12px;
+}
+}

@@ -1,0 +1,42 @@
+.leng {
+    margin: 15px 0;
+  }
+  
+  .lenguage {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 15px 0;
+  }
+  
+  .skill_bar {
+    width: 47%;
+    height: 16px;
+    border-radius: 25px;
+    position: relative;
+  }
+  
+  .skills_title_inner_arm, .skills_title_inner_eng, .skills_title_inner_ru, .skills_title_inner_gr {
+    border-radius: 25px;
+    height: 15px;
+    top: -1px;
+    position: absolute;
+    background: linear-gradient(to right, red, yellow);
+  }
+  
+  .skills_title_inner_arm {
+    width: 100%;
+  }
+  
+  .skills_title_inner_eng {
+    width: 80%;
+  }
+  
+  .skills_title_inner_ru {
+    width: 80%;
+  }
+  
+  .skills_title_inner_gr {
+    width: 50%;
+  }
+  
